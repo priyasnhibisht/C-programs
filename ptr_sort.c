@@ -6,7 +6,7 @@ void sort(int n, int *p)
     {  
         for (j = i + 1; j < n; j++)
         {  
-           if (*(ptr + j) < *(p + i)) 
+           if (*(p + j) < *(p + i)) 
            {  
                 t = *(p + i);  
                 *(p + i) = *(p + j);  
