@@ -34,7 +34,7 @@ int main()
 	printf("The merged array is :: ");
 	
 	for(i = 0; i < j; i++)
-	{	printf("%d  ", a[i]);
+	{	printf("%d  ", *(p+i));
 	}
 	
 	return 0;
