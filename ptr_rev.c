@@ -11,7 +11,7 @@ void rev(int n, int *p)
 }
 
 int main() {
-    int n, i, j, temp;
+    int n, i, j, t;
 
     printf("Enter size of array:");
     scanf("%d", &n);
